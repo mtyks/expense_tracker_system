@@ -2,6 +2,8 @@
 SPU Project Django this project is for education. 
 it about income and expenditure that i want to have something to write on 
 but lazy to buy the book one so it came to this idea
+
+work with python-version: [3.10, 3.11, 3.12]
  
 First, clone the repository to your local machine:
 
