@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load widget_tweaks %}
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white text-center py-3">
+            <h1>เพิ่มรายการรายรับหรือรายจ่าย</h1>
+        </div>
+        <div class="card-body p-4">
+            <form method="POST">
+                {% csrf_token %}
+
+                <div class="mb-3">
+                    <label for="id_name" class="form-label">ชื่อรายการ</label>
+                    {{ form.name|add_class:"form-control" }}
+                </div>
+
+                <div class="mb-3">
+                    <label for="id_amount" class="form-label">จำนวนเงิน</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="bi bi-currency-bath"></i></span>
+                        {{ form.amount|add_class:"form-control" }}
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="id_category" class="form-label">หมวดหมู่</label>
+                    {{ form.category|add_class:"form-select" }}
+                </div>
+
+                <div class="mb-3">
+                    <label for="id_date" class="form-label">วันที่</label>
+                    {{ form.date|add_class:"form-control"|attr:"type:date" }}
+                </div>
+
+                <div class="mb-3">
+                    <label for="id_description" class="form-label">รายละเอียด</label>
+                    {{ form.description|add_class:"form-control"|attr:"rows:3" }}
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success me-2">บันทึก</button>
+                    <a class="btn btn-secondary" href="{% url 'home' %}">กลับไปหน้าแรก</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
