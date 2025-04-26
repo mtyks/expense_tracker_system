@@ -9,12 +9,6 @@ First, clone the repository to your local machine:
 git clone https://github.com/mtyks/expense_tracker_system.git
 ```
 
-You need to install widget-tweaks to run properly:
-
-```bash
-pip install django-widget-tweaks
-```
-
 Install the requirements:
 
 ```bash
