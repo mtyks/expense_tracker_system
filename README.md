@@ -7,8 +7,7 @@ work with python-version: [3.10, 3.11, 3.12]
 
 Install Git
 Go to the official Git website.
-
-Download the installer for Windows. Make sure to check the box that says "Add Git to PATH" during installation. or just hit all next 
+Download the installer for Windows. Make sure to check the box that says "Add Git to PATH" during installation. or just hit all next :
 
 ```bash
 https://git-scm.com/downloads/win
@@ -19,7 +18,7 @@ clone the repository to your local machine:
 ```bash
 git clone https://github.com/mtyks/expense_tracker_system.git
 ```
-locate the folder
+locate system folder:
 
 ```bash
 cd expense_tracker_system
@@ -29,6 +28,12 @@ Install the requirements:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Make the migrations:
+
+```bash
+python manage.py makemigrations
 ```
 
 Apply the migrations:
