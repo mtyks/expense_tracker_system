@@ -8,15 +8,11 @@ work with python-version: [3.10, 3.11, 3.12]
 Install Git
 Go to the official Git website.
 
-Download the installer for Windows.
+Download the installer for Windows. Make sure to check the box that says "Add Git to PATH" during installation. or just hit all next 
 
 ```bash
 https://git-scm.com/downloads/win
  ```
-
-Run the installer and follow the setup prompts. You can keep the default settings.
-
-Make sure to check the box that says "Add Git to PATH" during installation.
 
 clone the repository to your local machine:
 
