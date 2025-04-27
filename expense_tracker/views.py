@@ -119,5 +119,5 @@ def search_transactions(request):
     }
     return render(request, 'search_transactions.html', context)
 
-def about_view(request):
+def about(request):
     return render(request, 'about.html')
