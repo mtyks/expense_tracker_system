@@ -19,6 +19,11 @@ clone the repository to your local machine:
 ```bash
 git clone https://github.com/mtyks/expense_tracker_system.git
 ```
+locate the folder
+
+```bash
+cd expense_tracker_system
+```
 
 Install the requirements:
 
