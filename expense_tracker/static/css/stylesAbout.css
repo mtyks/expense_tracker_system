@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+html{
+    scroll-behavior: smooth;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    margin: 0;
+    background-color: #f0f2f5;
+    background-image: url(background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-container h1 {
+    margin-bottom: 40px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: translateY(-5px);
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.about-container h2 {
+    margin: 10px 0;
+}
+
+.about-container p {
+    color: #555;
+}
+.container a{
+    text-decoration: none;
+    color: #121212;
+    font-size: 16px;
+    transition: color 0.3s;
+    display: flex;
+}
+.container a:hover {
+    color: #005bb5;
+}
+.instagram-icon {
+    width: 24px;
+    height: auto;
+    margin-top: 10px;
+}

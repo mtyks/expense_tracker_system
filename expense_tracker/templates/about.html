@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/stylesAbout.css' %}">
+{% block content %}
+<!DOCTYPE html>
+     <div class="about-container">
+        <h1>About Us</h1>
+        <div class="profiles">
+            <div class="profile">
+                <img src="{% static 'images/profile1.jpg' %}" alt="Person 1" class="profile-image">
+                <h2>67123506</h2>
+                <p>นายกอบกิจ โกษาพันธุ์</p>
+                <a href="https://www.instagram.com/kkksp_mty" target="_blank">
+                    <img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" class="instagram-icon">
+                </a>
+            </div>
+            <div class="profile">
+                <img src="{% static 'images/profile2.jpg' %}" alt="Person 2" class="profile-image">
+                <h2>67144085</h2>
+                <p>นายธนชัย เอี่ยมสอาด</p>
+                <a href="https://www.instagram.com/thxnch_/" target="_blank">
+                    <img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" class="instagram-icon">
+                </a>
+            </div>
+            <div class="profile">
+                <img src="{% static 'images/profile3.jpg' %}" alt="Person 3" class="profile-image">
+                <h2>67124556</h2>
+                <p>นายกันต์นิบุณ อ่องดี</p>
+                <a href="https://www.instagram.com/gen_knb/" target="_blank">
+                    <img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" class="instagram-icon">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,3 +1,4 @@
+from decimal import Context
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Transaction
 from .forms import TransactionForm
@@ -120,8 +121,5 @@ def search_transactions(request):
     }
     return render(request, 'search_transactions.html', context)
 
-
-def your_view(request):
-    return render(request, 'your_template.html', {
-        'year': datetime.now().year
-    })
+def about(request):
+    return render(request, 'about.html')
