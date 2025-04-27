@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'css/stylesAbout.css' %}">
+{% block title %}About Us{% endblock %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/stylesAbout.css' %}">
+{% endblock %}
+{% block scripts %}
+    <script src="{% static 'js/scripts.js' %}"></script>
+{% endblock %}
 {% block content %}
 <!DOCTYPE html>
      <div class="about-container">
