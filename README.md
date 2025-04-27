@@ -4,8 +4,14 @@ it about income and expenditure that i want to have something to write on
 but lazy to buy the book one so it came to this idea
 
 work with python-version: [3.10, 3.11, 3.12]
- 
-First, clone the repository to your local machine:
+
+download the git for windows from 
+
+```bash
+https://git-scm.com/downloads/win
+ ```
+
+clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/mtyks/expense_tracker_system.git
