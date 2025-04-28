@@ -1,38 +1,47 @@
 {% extends "base.html" %}
 {% load static %}
-{% block styles %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-{% endblock %}
+
+{% load widget_tweaks %}
 {% block content %}
-     <div class="about-container">
-        <h1>About Us</h1>
-        <div class="profiles">
-            <div class="profile">
-                <img src="{% static 'images/profile1.jpg' %}" alt="Person 1" class="profile-image">
-                <h2>67123506</h2>
-                <p>นายกอบกิจ โกษาพันธุ์</p>
-                <a href="https://www.instagram.com/kkksp_mty" target="_blank">
-                    <img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" class="instagram-icon">
-                </a>
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">สมาชิกผู้จัดทำ</h1>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <img src="{% static 'images/3.jpg' %}" class="card-img-top" alt="Developer 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">นายกัณนิบุญ อ่องดี</h5>
+                    <p class="card-text text-muted">รหัสนักศึกษา 67124556<br>สาขา เทคโนโลยีสารสนเทศและการสื่อสาร</p>
+                </div>
             </div>
-            <div class="profile">
-                <img src="{% static 'images/profile2.jpg' %}" alt="Person 2" class="profile-image">
-                <h2>67144085</h2>
-                <p>นายธนชัย เอี่ยมสอาด</p>
-                <a href="https://www.instagram.com/thxnch_/" target="_blank">
-                    <img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" class="instagram-icon">
-                </a>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <img src="{% static 'images/1.jpg' %}" class="card-img-top" alt="Developer 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">นายกอบกิจ โกษาพันธุ์</h5>
+                    <p class="card-text text-muted">รหัสนักศึกษา 67123506<br>สาขา เทคโนโลยีสารสนเทศและการสื่อสาร</p>
+                </div>
             </div>
-            <div class="profile">
-                <img src="{% static 'images/profile3.jpg' %}" alt="Person 3" class="profile-image">
-                <h2>67124556</h2>
-                <p>นายกันต์นิบุณ อ่องดี</p>
-                <a href="https://www.instagram.com/gen_knb/" target="_blank">
-                    <img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" class="instagram-icon">
-                </a>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <img src="{% static 'images/2.jpg' %}" class="card-img-top" alt="Developer 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">นายธนชัย เอี่ยมสอาด</h5>
+                    <p class="card-text text-muted">รหัสนักศึกษา 67144085<br>สาขา เทคโนโลยีสารสนเทศและการสื่อสาร</p>
+                </div>
             </div>
         </div>
     </div>
-</body>
-</html>
+
+    <div class="text-center mt-5">
+        <a href="{% url 'home' %}" class="btn btn-warning">กลับไปหน้าแรก</a>
+    </div>
+</div>
 {% endblock %}

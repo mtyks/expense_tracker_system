@@ -3,6 +3,7 @@ from .models import Transaction
 from .forms import TransactionForm
 from django.db.models import Sum
 from django.db.models import Q
+from datetime import datetime
 from django.core.paginator import Paginator
 
 # หน้าหลักแสดงข้อมูล
@@ -119,5 +120,11 @@ def search_transactions(request):
     }
     return render(request, 'search_transactions.html', context)
 
+
+def your_view(request):
+    return render(request, 'your_template.html', {
+        'year': datetime.now().year
+    })
+
 def about(request):
-    return render(request, 'about.html')
+    return render(request,'about.html')
