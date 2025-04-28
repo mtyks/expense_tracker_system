@@ -1,51 +1,32 @@
-# expense_tracker_system
-SPU Project Django this project is for education. 
-it about income and expenditure that i want to have something to write on 
-but lazy to buy the book one so it came to this idea
+# 💰 Expense Tracker System
 
-work with python-version: [3.10, 3.11, 3.12]
+A Django-based web application that allows users to track their expenses, categorize transactions, and monitor financial habits over time.
 
-Install Git
-Go to the official Git website.
-Download the installer for Windows. Make sure to check the box that says "Add Git to PATH" during installation. or just hit all next :
+## 🚀 Features
 
-```bash
-https://git-scm.com/downloads/win
- ```
+- Add, edit, and delete expenses
+- Categorize expenses (e.g., Food, Travel, Bills)
+- View expenses by date and category
+- User-friendly web interface (built with Django templates)
+- SQLite database for easy setup (can be swapped for PostgreSQL/MySQL)
+- Linting with [Ruff](https://github.com/astral-sh/ruff)
+- Django test framework for unit testing
 
-clone the repository to your local machine:
+---
 
-```bash
-git clone https://github.com/mtyks/expense_tracker_system.git
-```
-locate system folder:
+## 🛠 Tech Stack
 
-```bash
-cd expense_tracker_system
-```
+- **Backend**: Python 3.12, Django
+- **Database**: SQLite (default)
+- **Linting**: Ruff
+- **Testing**: Django test runner
+- **CI/CD**: GitHub Actions (optional integration)
 
-Install the requirements:
+---
 
-```bash
-pip install -r requirements.txt
-```
+## 📦 Installation
 
-Make the migrations:
-
-```bash
-python manage.py makemigrations
-```
-
-Apply the migrations:
-
-```bash
-python manage.py migrate
-```
-
-Finally, run the development server:
-
-```bash
-python manage.py runserver
-```
-
-The project will be available at **127.0.0.1:8000**.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mtyks/expense_tracker_system.git
+   cd expense_tracker_system
