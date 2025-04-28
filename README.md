@@ -34,24 +34,24 @@ A Django-based web application that helps users track and categorize their daily
 git clone https://github.com/mtyks/expense_tracker_system.git
 cd expense_tracker_system
 ```
-2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 ```
-3. Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4. Apply database migrations
+### 4. Apply database migrations
 ```bash
 python manage.py migrate
 ```
-5. Start the development server
+### 5. Start the development server
 ```bash
 python manage.py runserver
 ```
-6. Open in browser
+### 6. Open in browser
 ```bash
 http://127.0.0.1:8000/
 ```
