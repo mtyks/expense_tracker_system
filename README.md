@@ -29,7 +29,7 @@ A Django-based web application that helps users track and categorize their daily
 
 ## 📸 Web Example
 
-![Web Screenshot](https://imgur.com/3Krr4mh)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egHome.png)
 
 *Insert a screenshot or a link to a live demo here to give users an idea of how the app looks in action.*
 
