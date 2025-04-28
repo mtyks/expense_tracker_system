@@ -27,6 +27,14 @@ A Django-based web application that helps users track and categorize their daily
 
 ---
 
+## 📸 Web Example
+
+![Web Example](https://example.com/path-to-your-image.png)
+
+*Insert a screenshot or a link to a live demo here to give users an idea of how the app looks in action.*
+
+---
+
 ## 📦 Installation Guide
 
 ### 1. Clone the repository
