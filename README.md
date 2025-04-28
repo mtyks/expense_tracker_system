@@ -29,7 +29,7 @@ A Django-based web application that helps users track and categorize their daily
 
 ## 📸 Web Example
 
-###Our Logo
+### Our Logo
 ![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/brandicon.png)
 
 ### 1. Home
