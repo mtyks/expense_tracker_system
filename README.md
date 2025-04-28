@@ -29,7 +29,7 @@ A Django-based web application that helps users track and categorize their daily
 
 ## 📸 Web Example
 
-![Web Example](https://example.com/path-to-your-image.png)
+![Web Example]([https://example.com/path-to-your-image.png](https://imgur.com/3Krr4mh))
 
 *Insert a screenshot or a link to a live demo here to give users an idea of how the app looks in action.*
 
