@@ -29,9 +29,26 @@ A Django-based web application that helps users track and categorize their daily
 
 ## 📸 Web Example
 
+### 1. Home
 ![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egHome.png)
 
-*Insert a screenshot or a link to a live demo here to give users an idea of how the app looks in action.*
+### 2. Filter Tab
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egFilter.png)
+
+### 3. Edit
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egEdit.png)
+
+### 4. Delete
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egDelete.png)
+
+### 5. Add
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egAdd.png)
+
+### 6. Search
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egSearch.png)
+
+### 7. About us
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egAbout.png)
 
 ---
 
