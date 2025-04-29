@@ -9,7 +9,8 @@ A Django-based web application that helps users track and categorize their daily
 - [🚀 Features](#-features)  
 - [🛠 Tech Stack](#-tech-stack)  
 - [📸 Web Example](#-web-example)  
-- [📦 Installation Guide](#-installation-guide)  
+- [📦 Installation Guide](#-installation-guide)
+- [📁 Project Structure](#-project-structure)
 - [🧪 Running Tests](#-running-tests)  
 - [🧹 Code Linting with Ruff](#-code-linting-with-ruff)  
 - [🤖 GitHub Actions](#-github-actions)  
@@ -108,7 +109,62 @@ http://127.0.0.1:8000/
 [🔝 Back to Top](#-table-of-contents)
 
 ---
+## 📁 Project Structure
 
+```bash
+expense_tracker_system/              # 🔷 Root of the full Django project
+│
+├── expense_tracker_system/         # 🔧 Django settings/project configuration
+│   ├── __init__.py                 # Initializes this folder as a Python package
+│   ├── settings.py                 # Main project settings (DB config, installed apps, etc.)
+│   ├── urls.py                     # Root URL routes (includes app-level urls)
+│   ├── wsgi.py                     # WSGI entry point for deployment (e.g. Gunicorn, Apache)
+│   └── asgi.py                     # ASGI entry point (for async servers like Daphne/Uvicorn)
+│
+├── expense_tracker/               # 💼 Main Django app for tracking expenses
+│   ├── __init__.py                # Marks this directory as a Python package
+│   ├── admin.py                   # Admin interface registration for models
+│   ├── apps.py                    # App config for Django (e.g., name and settings)
+│   ├── forms.py                   # Custom Django forms (e.g., expense input forms)
+│   ├── migrations/                # Database schema version control
+│   │   └── __init__.py            # Makes the migrations folder a package
+│   ├── models.py                  # Data models (Expense, Category, etc.)
+│   ├── tests.py                   # Unit tests for the app
+│   ├── urls.py                    # URL patterns for this app (mapped from main `urls.py`)
+│   ├── views.py                   # Request handlers (business logic, rendering, redirects)
+│   ├── templates/                 # 🖼 HTML templates for frontend views
+│   │   └── expense_tracker/       # App-specific template folder
+│   │       ├── base.html          # Base layout template (navigation, head, etc.)
+│   │       ├── home.html          # Homepage view (expense dashboard)
+│   │       ├── add.html           # Add new expense form page
+│   │       ├── edit.html          # Edit existing expense page
+│   │       ├── delete.html        # Confirm deletion page
+│   │       ├── about.html         # About/project information page
+│   │       └── search.html        # Search/filter expenses page
+│   └── static/                    # 📁 Static files (CSS, JS, images)
+│       └── images/                # UI screenshots and icons
+│           ├── brandicon.png      # App logo/icon
+│           ├── egHome.png         # Screenshot: Home view
+│           ├── egFilter.png       # Screenshot: Filter view
+│           ├── egEdit.png         # Screenshot: Edit view
+│           ├── egDelete.png       # Screenshot: Delete view
+│           ├── egAdd.png          # Screenshot: Add view
+│           ├── egSearch.png       # Screenshot: Search view
+│           └── egAbout.png        # Screenshot: About page
+│
+├── .github/                       # ⚙ GitHub-specific configuration
+│   └── workflows/                 # CI/CD workflows (e.g., automated linting)
+│       └── lint.yml               # GitHub Actions config to run Ruff for lint checks
+│
+├── manage.py                      # Django’s command-line utility (runserver, migrate, etc.)
+├── requirements.txt              # List of required Python packages
+├── README.md                      # Project overview, features, setup, and screenshots
+└── .gitignore                     # Files/folders Git should ignore (env, db.sqlite3, etc.)
+```
+
+[🔝 Back to Top](#-table-of-contents)
+
+---
 ## 🧪 Running Tests
 To run all tests:
 ```bash
