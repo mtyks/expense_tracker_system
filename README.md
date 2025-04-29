@@ -28,6 +28,8 @@ A Django-based web application that helps users track and categorize their daily
 - Code linting with [Ruff](https://github.com/astral-sh/ruff)
 - Unit testing with Django’s built-in test framework
 
+[🔝 Back to Top](#-table-of-contents)
+
 ---
 
 ## 🛠 Tech Stack
@@ -38,6 +40,8 @@ A Django-based web application that helps users track and categorize their daily
 - **Linting**: Ruff
 - **Testing**: Django test runner
 - **CI/CD**: GitHub Actions (optional)
+
+[🔝 Back to Top](#-table-of-contents)
 
 ---
 
@@ -67,6 +71,9 @@ Summarize income and expenses according to the filter or a month by default.
 
 ### 7. About us
 ![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egAbout.png)
+
+
+[🔝 Back to Top](#-table-of-contents)
 
 ---
 
@@ -98,14 +105,16 @@ python manage.py runserver
 ```bash
 http://127.0.0.1:8000/
 ```
+[🔝 Back to Top](#-table-of-contents)
+
 ---
 
-🧪 Running Tests
+## 🧪 Running Tests
 To run all tests:
 ```bash
 python manage.py test
 ```
-🧹 Code Linting with Ruff
+## 🧹 Code Linting with Ruff
 Check code quality with:
 ```bash
 ruff check .
@@ -115,10 +124,12 @@ Auto-fix issues with:
 ruff check . --fix
 ```
 
-🤖 GitHub Actions
+## 🤖 GitHub Actions
 This project can integrate with GitHub Actions for automated code checks. You can configure it using .github/workflows/lint.yml.
 
-👤 About the Developer
+## 👤 About the Developer
 Hi, I'm mtyks — a developer interested in building practical web tools using Python and Django. This project is a personal exploration into full-stack development, clean architecture, and scalable design. I'm open to feedback, ideas, or collaboration.
+
+[🔝 Back to Top](#-table-of-contents)
 
 
