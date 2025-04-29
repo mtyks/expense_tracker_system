@@ -186,6 +186,8 @@ This project can integrate with GitHub Actions for automated code checks. You ca
 ## 👤 About the Developer
 Hi, I'm mtyks — a developer interested in building practical web tools using Python and Django. This project is a personal exploration into full-stack development, clean architecture, and scalable design. I'm open to feedback, ideas, or collaboration.
 
+##📜 License - This project is created for educational purposes under the ICT12367 course.
+
 [🔝 Back to Top](#-table-of-contents)
 
 
