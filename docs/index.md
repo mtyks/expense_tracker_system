@@ -49,29 +49,29 @@ A Django-based web application that helps users track and categorize their daily
 ## 📸 Web Example
 
 ### Our Logo
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/brandicon.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/brandicon.png)
 
 ### 1. Home
 Summarize income and expenses according to the filter or a month by default.
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egHome.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egHome.png)
 
 ### 2. Filter Tab
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egFilter.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egFilter.png)
 
 ### 3. Edit
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egEdit.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egEdit.png)
 
 ### 4. Delete
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egDelete.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egDelete.png)
 
 ### 5. Add
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egAdd.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egAdd.png)
 
 ### 6. Search
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egSearch.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egSearch.png)
 
 ### 7. About us
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egAbout.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egAbout.png)
 
 
 [🔝 Back to Top](#-table-of-contents)
