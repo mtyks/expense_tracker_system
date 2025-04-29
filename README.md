@@ -4,6 +4,20 @@ A Django-based web application that helps users track and categorize their daily
 
 ---
 
+## 📖 Table of Contents
+
+- [🚀 Features](#-features)  
+- [🛠 Tech Stack](#-tech-stack)  
+- [📸 Web Example](#-web-example)  
+- [📦 Installation Guide](#-installation-guide)  
+- [🧪 Running Tests](#-running-tests)  
+- [🧹 Code Linting with Ruff](#-code-linting-with-ruff)  
+- [🤖 GitHub Actions](#-github-actions)  
+- [👤 About the Developer](#-about-the-developer)
+
+---
+
+
 ## 🚀 Features
 
 - Add, edit, and delete expense entries
