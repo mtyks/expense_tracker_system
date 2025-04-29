@@ -8,7 +8,6 @@ A Django-based web application that helps users track and categorize their daily
 
 - [🚀 Features](#-features)  
 - [🛠 Tech Stack](#-tech-stack)  
-- [📸 Web Example](#-web-example)  
 - [📦 Installation Guide](#-installation-guide)
 - [📁 Project Structure](#-project-structure)
 - [🧪 Running Tests](#-running-tests)  
@@ -41,38 +40,6 @@ A Django-based web application that helps users track and categorize their daily
 - **Linting**: Ruff
 - **Testing**: Django test runner
 - **CI/CD**: GitHub Actions (optional)
-
-[🔝 Back to Top](#-table-of-contents)
-
----
-
-## 📸 Web Example
-
-### Our Logo
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/brandicon.png)
-
-### 1. Home
-Summarize income and expenses according to the filter or a month by default.
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egHome.png)
-
-### 2. Filter Tab
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egFilter.png)
-
-### 3. Edit
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egEdit.png)
-
-### 4. Delete
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egDelete.png)
-
-### 5. Add
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egAdd.png)
-
-### 6. Search
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egSearch.png)
-
-### 7. About us
-![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/docs/egAbout.png)
-
 
 [🔝 Back to Top](#-table-of-contents)
 
