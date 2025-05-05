@@ -53,7 +53,7 @@ A Django-based web application that helps users track and categorize their daily
 
 ### 1. Home
 Summarize income and expenses according to the filter or a month by default.
-![Web Screenshot](https://github.com/expense_tracker/static/images/egHome.png)
+![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egHome.png)
 
 ### 2. Filter Tab
 ![Web Screenshot](https://github.com/mtyks/expense_tracker_system/blob/main/expense_tracker/static/images/egFilter.png)
